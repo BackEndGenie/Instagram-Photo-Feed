@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container-inicio {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-inicio {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titulo-inicio {
+    font-size: 24px;
+    color: #333;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.username {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    margin-right: 5px;
+}
+
+.verificado-png {
+    margin-left: 5px;
+}
+
+.cantidad-de-fotos {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.contenedor-imagen {
+    text-align: center;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.imagen-post {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.contenedor-parrafo {
+    padding: 10px;
+}
+
+.username-verificado {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el nombre de usuario y el símbolo verificado */
+    margin-bottom: 5px;
+}
+.descripcion-parrafo {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0 0 0;
+}
